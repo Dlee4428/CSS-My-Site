@@ -1,28 +1,57 @@
 body {
+  color: #393e46;
+  background-color: #EEEEEE;
+  font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
 }
 
 h1 {
-  margin: 0 auto; /* top and bottom 0, left and right auto */
+  color: #222831;
+  font-size: 5.625rem;
+  /* 16px = 100% = 1em */
   font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  /* top and bottom 0, left and right auto */
 }
 
 h2 {
+  color: #222831;
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
 }
 
 h3 {
+  color: #222831;
   font-family: 'Montserrat', sans-serif;
 }
 
-img {
-  display: inline-block;
+p {
+  line-height: 2;
+}
+
+a {
+  color: #393E46;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: dotted #393E46 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #32e0c4;
   position: relative;
   padding-top: 100px;
   /*margin: 0 0 20px 0;
@@ -30,29 +59,92 @@ img {
 }
 
 .middle-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+  margin: 100px 0;
 }
 
 .bottom-container {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
+  background-color: #32e0c4;
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link {
+  color: #11999E;
 }
 
 .pro {
   text-decoration: underline;
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #393e46;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
+}
+
+.myButton {
+  box-shadow: inset 0 1px 0 0 #32e0c4;
+  background: linear-gradient(to bottom, #32e0c4 5%, #32e0c4 100%);
+  background-color: #32e0c4;
+  border-radius: 6px;
+  border: 1px solid #32e0c4;
+  display: inline-block;
+  cursor: pointer;
+  color: #393e46;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #32e0c4;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #32e0c4 5%, #32e0c4 100%);
+  background-color: #32e0c4;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
 }
